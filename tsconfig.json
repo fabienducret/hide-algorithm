@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths": {
+      "@customtypes/*": ["types/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
